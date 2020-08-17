@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/noidont_bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="125dp"
+            android:text="HAPPY BIRTHDAY JAMES!"
+            android:textStyle="bold|italic"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="125dp"
+            android:text="HAPPY BIRTHDAY JAMES!"
+            android:textStyle="bold|italic"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:background="#484B6693"
+            android:text="HOPE YOU HAPPY IN EVERY DAY"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/noidont" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="500dp"
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/frame_bday" />
+
+    </RelativeLayout>
+</RelativeLayout>
